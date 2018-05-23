@@ -28,20 +28,6 @@ var storage = multer.diskStorage({
 
 // db connection
 var mysql = require('mysql');
-// var con = mysql.createConnection({
-//   host: "localhost",
-//   user: "root",
-//   password: "",
-//   database: 'survey_db'
-// });
-
-// var con = mysql.createConnection({
-//       host: "localhost",
-//       user: "oc_rahman",
-//       password: "2en8m1oopin3k3ghefreund29dx5dm",
-//       database: 'survey_db'
-//     });
-
 
 // var con = mysql.createConnection({
 //     host: "sql12.freemysqlhosting.net",
@@ -52,10 +38,10 @@ var mysql = require('mysql');
 
 
 var con = mysql.createConnection({
-    host: "sql12.freemysqlhosting.net",
-    user: "sql12233826", 
-    password: "Ehpcs1xeq5",
-    database: 'sql12233826'
+    host: "sql2.freesqldatabase.com",
+    user: "sql2239428", 
+    password: "qH2%cK7*",
+    database: 'sql2239428'
   });
 
 
