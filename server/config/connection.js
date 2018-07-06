@@ -13,12 +13,25 @@ var mysql = require('mysql');
 //   database: 'survey_db'
 // });
 
+
+// 6-7-18
+// var con = mysql.createConnection({
+//   host: "sql12.freemysqlhosting.net",
+//   user: "sql12231235", 
+//   password: "llLisnJqn4",
+//   database: 'sql12231235'
+// });
+
+
 var con = mysql.createConnection({
-  host: "sql12.freemysqlhosting.net",
-  user: "sql12231235", 
-  password: "llLisnJqn4",
-  database: 'sql12231235'
+  host: "sql2.freesqldatabase.com",
+  user: "sql2246345", 
+  password: "tS3!kM7!",
+  database: 'sql2246345'
 });
+
+
+
 
 // con.connect(function(err) {
 //         if (err)            
