@@ -37,13 +37,19 @@ var mysql = require('mysql');
 //   });
 
 
-var con = mysql.createConnection({
-    host: "sql2.freesqldatabase.com",
-    user: "sql2239428", 
-    password: "qH2%cK7*",
-    database: 'sql2239428'
-  });
+// var con = mysql.createConnection({
+//     host: "sql2.freesqldatabase.com",
+//     user: "sql2239428", 
+//     password: "qH2%cK7*",
+//     database: 'sql2239428'
+//   });
 
+var con = mysql.createConnection({
+        host: "sql2.freesqldatabase.com",
+        user: "sql2246345", 
+        password: "tS3!kM7!",
+        database: 'sql2246345'
+      });
 
 con.connect(function(err) {
     if (err)            
