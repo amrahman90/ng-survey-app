@@ -46,7 +46,7 @@
     "@swimlane/ngx-charts": "^7.0.1",
     "@types/jspdf": "^1.1.31",
     "angular-in-memory-web-api": "~0.4.0",
-    "bcrypt": "^1.0.3",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.18.2",
     "bootstrap": "^3.3.7",
     "connect-multiparty": "^2.1.0",
